@@ -1,0 +1,647 @@
+#contacts {
+    display: grid;
+    width: 100%;
+    height: 153px;
+    background-color: rgb(255, 255, 255);
+}
+.start h1 {
+    font-family: cursive;
+    position: absolute;
+    display: flex;
+    font-size: 32px;
+    line-height: 41.2px;
+    color: #1B2437;
+    margin-top: 16px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+.start hr {
+    width: 100%;
+    position: absolute;
+    margin-top: 73px;
+    display: flex;
+    color: #F3F3F3;
+    height: 1px;
+}
+.twit {
+    position: absolute;
+    display: flex;
+    margin-left: 855px;
+    margin-top: 29px;
+    cursor: pointer;
+}
+.inst {
+    position: absolute;
+    display: flex;
+    margin-left: 940px;
+    margin-top: 29px;
+    cursor: pointer;
+}
+.face {
+    position: absolute;
+    display: flex;
+    margin-left: 1030px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+.search {
+    position: absolute;
+    display: flex;
+    margin-left: 1440px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+.shop {
+    position: absolute;
+    display: flex;
+    margin-left: 1510px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+.help {
+    position: absolute;
+    display: flex;
+    margin-left: 1570px;
+    margin-top: 31px;
+    cursor: pointer;
+}
+.start h2 {
+    position: absolute;
+    display: flex;
+    font-size: 28px;
+    margin-left: 680px;
+    margin-top: 97px;
+    font-family: Playfair Display;
+    cursor: pointer;
+}
+.start h3 {
+    position: absolute;
+    display: flex;
+    font-size: 28px;
+    margin-left: 847px;
+    margin-top: 97px;
+    font-family: Playfair Display;
+    cursor: pointer;
+}
+.start h4 {
+    position: absolute;
+    display: flex;
+    font-size: 28px;
+    margin-left: 981px;
+    margin-top: 97px;
+    font-family: Playfair Display;
+    cursor: pointer;
+}
+.start h5 {
+    position: absolute;
+    display: flex;
+    font-size: 28px;
+    font-family: Playfair Display;
+    margin-left: 1125px;
+    margin-top: 97px;
+    cursor: pointer;
+}
+#baner {
+    max-width: 1439px;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 569px;
+}
+.hero h1 {
+    position: absolute;
+    display: grid;
+    font-size: 48px;
+    line-height: 67px;
+    margin-left: 165px;
+    margin-top: -492px;
+    color: #FFFFFF;
+    width: 361px;
+    height: 134px;
+}
+.hero p {
+    position: absolute;
+    display: grid;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 165px;
+    margin-top: -342px;
+    font-family: sans-serif;
+    width: 446px;
+    height: 90px;
+}
+.show button {
+    width: 255px;
+    height: 77px;
+    display: flex;
+    background-color: #1B2437;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 30px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-left: 164px;
+    margin-top: -200px;
+    border-color: transparent;
+}
+#menu {
+    max-width: 1110px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 802px;
+    margin-top: 70px;
+}
+.Grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 445px 303px;
+}
+.item1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    width: 445px;
+    height: 458px;
+}
+.item2 {
+    height: 225px;
+    width: 303px;
+    background-color:#EFEFF4;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    border-radius: 16px;
+}
+.item3 {
+    grid-column-start: 3;
+    grid-row-start: 1; 
+
+}
+.item4 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.item5 {
+    height: 313px;
+    width: 1110px;
+    background-color:#FFFFFF;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    border-radius: 16px;
+}
+.item1 h1 {
+    position: absolute;
+    display: flex;
+    font-size: 35px;
+    line-height: 45px;
+    font-family: fantasy;
+    color: #FFFFFF;
+    margin-top: -187px;
+    margin-left: 32px;
+}
+.item1 p {
+    position: absolute;
+    display: flex;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: -90px;
+    margin-left: 32px;
+}
+.item1 button {
+    width: 93px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    border-radius: 8px;
+    border-color: transparent;
+    color: #ffffff;
+    margin-top: -50px;
+    margin-left: 32px;
+    background-color: #a1a1a1;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.item2 h1 {
+    position: absolute;
+    display: grid;
+    font-size: 32px;
+    line-height: 45px;
+    color: black;
+    margin-left: 22px;
+    margin-top: 83px;
+    font-family: fantasy;
+    width: 281px;
+    height: 90px;
+}
+.item2 p {
+    position: absolute;
+    display: grid;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000;
+    margin-left: 22px;
+    margin-top: 53px;
+    font-family: sans-serif;
+    height: 30px;
+    width: 281px;
+}
+.item3 h1 {
+    position: absolute;
+    display: grid;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-left: 39px;
+    margin-top: -143px;
+    font-family: cursive;
+}
+.item3 p {
+    position: absolute;
+    display: grid;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 39px;
+    margin-top: -175px;
+    font-family: sans-serif;
+}
+.item4 h1 {
+    position: absolute;
+    display: grid;
+    font-size: 32px;
+    line-height: 45px;
+    color: #1B2437;
+    font-family: fantasy;
+    margin-left: 22px;
+    margin-top: -115px;
+}
+.item4 p {
+    position: absolute;
+    display: grid;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1B2437;
+    margin-left: 22px;
+    margin-top: -145px;
+    font-family: sans-serif;
+}
+.lvt {
+    position: absolute;
+    display: flex;
+    margin-top: 57px;
+    margin-left: 49px;
+}
+.lvt h1 {
+    position: absolute;
+    display: flex;
+    margin-top: 147px;
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: fantasy;
+}
+.dg {
+    position: absolute;
+    display: flex;
+    margin-left: 362px;
+    margin-top: 51px;
+}
+.dg h1 {
+    position: absolute;
+    display: flex;
+    margin-top: 153px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: fantasy;
+}
+.guu {
+    position: absolute;
+    display: flex;
+    margin-left: 619px;
+    margin-top: 74px;
+}
+.guu h1 {
+    position: absolute;
+    display: flex;
+    margin-top: 130px;
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: fantasy;
+}
+.dvn {
+    position: absolute;
+    display: flex;
+    margin-left: 935px;
+    margin-top: 54px;
+}
+.dvn h1 {
+    position: absolute;
+    display: flex;
+    margin-top: 147px;
+    width: 147px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: fantasy;
+}
+.point {
+    position: absolute;
+    display: flex;
+    margin-top: 277px;
+    margin-left: 513px;
+}
+.title h1 {
+    position: absolute;
+    display: flex;
+    margin-top: 80px;
+    font-size: 48px;
+    line-height: 67px;
+    font-family: serif;
+    margin-left: 400px;
+    height: 67px;
+    width: 274px;
+
+}
+.loggg {
+    max-width: 1110px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 104px;
+    margin-top: 172px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 487px 487px 487px;
+}
+.tem {
+    background: #FFFFFF;
+    box-shadow: 2px 5px 45px rgba(237, 163, 181, 0.25);
+    border-radius: 16px;
+}
+.tem h1 {
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    position: absolute;
+    font-family: fantasy;
+    margin-top: 16px;
+    margin-left: 24px;
+    width: 325px;
+    height: 30px;
+}
+.tem p {
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    position: absolute;
+    font-family: sans-serif;
+    margin-top: 54px;
+    margin-left: 24px;
+    width: 325px;
+    height: 60px;
+}
+.serr {
+    position: absolute;
+    display: flex;
+    background-color: #fffefe;
+    width: 44px;
+    height: 44px;
+    border-radius: 44px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 290px;
+    margin-top: -260px;
+}
+.serr img {
+    width: 18px;
+    height: 24px;
+}
+.bax {
+    position: absolute;
+    display: flex;
+    margin-left: 24px;
+    margin-top: 140px;
+}
+.now button {
+    position: absolute;
+    display: flex;
+    width: 153px;
+    height: 58px;
+    border-radius: 15px;
+    background-color: #EDA3B5;
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 179px;
+    margin-top: 136px;
+}
+.nowbl button {
+    position: absolute;
+    display: flex;
+    width: 153px;
+    height: 58px;
+    border-radius: 15px;
+    background-color: #1B2437;
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 179px;
+    margin-top: 136px;
+}
+.lott {
+    position: absolute;
+    display: grid;
+    font-size: 48px;
+    line-height: 67px;
+    margin-top: 1070px;
+}
+#mapa {
+    max-width: 1110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 658px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1060px;
+    border-radius: 16px;
+}
+.karta {
+    margin-left: 12px;
+    margin-top: 12px;
+    position: absolute;
+    display: flex;
+}
+.mail {
+    position: absolute;
+    display: flex;
+    margin-top: 550px;
+    margin-left: 130px;
+}
+.kontak h1 {
+    position: absolute;
+    display: flex;
+    margin-top: 603px;
+    margin-left: 122px;
+    font-size: 18px;
+    line-height: 30px;
+}
+    .adrr {
+    position: absolute;
+    display: flex;
+    margin-top: 547px;
+    margin-left: 535px;
+}
+.sms {
+    position: absolute;
+    display: flex;
+    margin-top: 554px;
+    margin-left: 948px;
+}
+.kontak h2 {
+    position: absolute;
+    display: flex;
+    margin-top: 603px;
+    margin-left: 522px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.kontak h3 {
+    position: absolute;
+    display: flex;
+    margin-top: 603px;
+    margin-left: 895px;
+    font-size: 18px;
+    line-height: 30px;
+    height: 30px;
+    width: 165px;
+}
+.local {
+    position: absolute;
+    display: flex;
+    margin-left: 443px;
+    margin-top: 267px;
+}
+#happy {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 333px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 70px;
+}
+.info h1 {
+    display: flex;
+    position: absolute;
+    font-size: 32px;
+    line-height: 41px;
+    font-family: cursive;
+    margin-left: 400px;
+    margin-top: 32px;
+    color: #1B2437;
+
+}
+.info p {
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5C5C5C;
+    margin-left: 400px;
+    margin-top: 97px;
+    height: 180px;
+    width: 255px;
+}
+.info h2 {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: fantasy;
+    margin-top: 45px;
+    margin-left: 806px;
+}
+.info h3 {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: fantasy;
+    margin-top: 45px;
+    margin-left: 1086px;
+}
+.info h4 {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: fantasy;
+    margin-top: 45px;
+    margin-left: 1336px;
+}
+.info p1 {
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    line-height: 40px;
+    color: #5C5C5C;
+    margin-left: 806px;
+    margin-top: 97px;
+}
+.info p2 {
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    line-height: 40px;
+    color: #5C5C5C;
+    margin-left: 1086px;
+    margin-top: 97px;
+}
+.info p3 {
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    line-height: 40px;
+    color: #5C5C5C;
+    margin-left: 1336px;
+    margin-top: 97px;
+}
+#last {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 74px;
+    background-color: #E5E5EA;
+}
+.lpqe {
+    display: flex;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 32px;
+}
+.intwfa {
+    display: flex;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 1376px;
+}
